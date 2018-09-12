@@ -1,0 +1,8 @@
+samtools = /PATH/OF/samtools
+bwa = /PATH/OF/bwa
+blat = /PATH/OF/blat
+ref_hg19 = /PATH/OF/ucsc.hg19.fasta
+lasm_lite = /PATH/OF/fermi_las
+simplerepeatbed = /PATH/OF/simpleRepeatExample.bed
+genelist4sv = /PATH/OF/gene.json
+our_model = /PATH/OF/our_model.m
