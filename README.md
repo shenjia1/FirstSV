@@ -3,7 +3,8 @@
 This tool is used to detect structural variants from a BAM file using local assembly.
 
 # All options
-'''shell
+
+```shell
 usage: FirstSV V 0.02 [-h] --bamfile bamfile --outputdir outdir --sampleid
                       sampleid --configinfo config_file
                       [--targetregion targetregion]
@@ -34,14 +35,12 @@ optional arguments:
   --hard_filter hard_filter, -f hard_filter
                         Weather to using hard filter.(EXPERIMENTAL)
 
-'''
+```
 
 # Simple usage
-'''shell
-
+```shell
 python FirstSV.py -c config.txt -o /PATH_OF_OUTPUT -i SAMPLE_ID -b BAM_FILE
-
-'''
+```
 
 # Dependencies
 * Standalone BLAT v. 36x1
@@ -49,5 +48,5 @@ python FirstSV.py -c config.txt -o /PATH_OF_OUTPUT -i SAMPLE_ID -b BAM_FILE
 * bwa-0.7.13
 
 #  Acknowledge
-fermi_las was based on the fermikit[https://github.com/lh3/fermikit] created by LiHeng.
+fermi_las was based on the [https://github.com/lh3/fermikit](fermikit) created by LiHeng.
 
