@@ -48,5 +48,5 @@ python FirstSV.py -c config.txt -o /PATH_OF_OUTPUT -i SAMPLE_ID -b BAM_FILE
 * bwa-0.7.13
 
 #  Acknowledge
-fermi_las was based on the [https://github.com/lh3/fermikit](fermikit) created by LiHeng.
+fermi_las was based on the [https://github.com/lh3/fermi-lite](fermi-lite) created by LiHeng.
 
